@@ -68,7 +68,7 @@ header a {
 
 #search-box {
     width: 584px;
-    max-width: 95vw;
+    max-width: calc(100vw - 48px);
     margin: 24px;
     height: 48px;
     border-radius: 24px;
@@ -214,16 +214,16 @@ footer a:hover {
         --accent-hover-color: #93BAF9;
         --footer-separator-color: #212327;
     }
-    
+
     #logo {
         filter: brightness(100);
     }
-    
+
     #search-box {
         border: 1px solid #5f6368;
         color: var(--text-color);
     }
-    
+
     #search-box:focus {
         background-color: var(--search-button-color);
         border: 1px solid var(--search-button-color);
